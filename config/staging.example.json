@@ -1,0 +1,13 @@
+{
+  "environment": "staging",
+  "allowed_host": "qr-staging.example.invalid",
+  "allowed_origins": [],
+  "database": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "name": "qr_staging",
+    "username": "",
+    "password": ""
+  },
+  "tokens": []
+}

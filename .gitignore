@@ -1,0 +1,47 @@
+# Runtime configuration and secrets
+.env
+.env.*
+!.env.example
+config/*.json
+!config/*.example.json
+secrets/
+credentials*.json
+service-account*.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Database exports and production data (safe schema in database/*.sql is retained)
+*.sql.gz
+*.sql.zip
+*.dump
+*.bak
+backups/
+exports/
+
+# Runtime and tooling state
+logs/
+var/
+tmp/
+vendor/
+.phpunit.cache/
+.phpunit.result.cache
+coverage/
+*.log
+
+# Local evidence and inert legacy-source copies are not publishable runtime assets
+evidence/
+reference/
+PREPARATION-REPORT.md
+reports/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.local.*
